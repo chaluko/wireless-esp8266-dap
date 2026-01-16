@@ -23,7 +23,7 @@
 
 ## 特性
 
-1. 支持的ESP芯片
+1. 支持的ESP芯片 TEST
     - [x] ESP8266/8285
     - [x] ESP32
     - [x] ESP32C3
@@ -466,3 +466,4 @@ CONFIG_USE_WEBSOCKET_DAP=y
 
 ## 许可证
 [MIT 许可证](LICENSE)
+
