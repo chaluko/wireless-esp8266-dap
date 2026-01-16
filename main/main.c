@@ -44,7 +44,7 @@ extern void SWO_Thread();
 TaskHandle_t kDAPTaskHandle = NULL;
 
 static const char *MDNS_TAG = "server_common";
-
+ // initialize mDNS
 #if defined(CONFIG_IDF_TARGET_ESP32S3)
 #define DAP_TASK_AFFINITY 1
 #else
